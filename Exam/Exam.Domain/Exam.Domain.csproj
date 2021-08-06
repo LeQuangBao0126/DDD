@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="AggregateModels\CategoryAggregate\" />
+    <Folder Include="AggregateModels\ExamAggragate\" />
+    <Folder Include="AggregateModels\ExamResultAggregate\" />
+    <Folder Include="AggregateModels\QuestionAggregate\" />
+    <Folder Include="AggregateModels\UserAggregate\" />
+    <Folder Include="Events\" />
+    <Folder Include="Exceptions\" />
+  </ItemGroup>
+
+</Project>
