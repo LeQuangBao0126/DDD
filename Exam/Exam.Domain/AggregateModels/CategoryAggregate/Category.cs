@@ -15,7 +15,7 @@ namespace Exam.Domain.AggregateModels.CategoryAggregate
 
         [BsonElement("urlPath")]
         public string  UrlPath { get; set; }  //domain/exam-category-1
-
+        
 
 
 

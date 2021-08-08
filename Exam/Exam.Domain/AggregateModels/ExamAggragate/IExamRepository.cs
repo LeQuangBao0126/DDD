@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Exam.Domain.AggregateModels.ExamAggragate
 {
-    public interface IExamRepository : IRepositoryBase<Exam>
+    public interface IExamRepository : IRepositoryBase<Exams>
     {
-        Task<IEnumerable<Exam>> GetExamListAsync();
-        Task<Exam> GetExamByIdAsync(string id);
+        Task<IEnumerable<Exams>> GetExamListAsync();
+        Task<Exams> GetExamByIdAsync(string id);
     }
 }

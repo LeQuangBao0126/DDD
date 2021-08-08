@@ -27,7 +27,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam.Infrastructure", "Exam
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{72B2C95C-075C-49B5-872B-C6958DAE6FB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam.Dtos", "Exam.Dtos\Exam.Dtos.csproj", "{06496040-C2F2-4A47-90D0-8050A968F31F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam.Dtos", "Exam.Dtos\Exam.Dtos.csproj", "{06496040-C2F2-4A47-90D0-8050A968F31F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
