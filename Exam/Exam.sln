@@ -13,17 +13,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Readme.md = Readme.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.API", "Identity.API\Identity.API.csproj", "{3B513FF2-BDCF-4FE8-8F2F-C771729CFC24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity.API", "Identity.API\Identity.API.csproj", "{3B513FF2-BDCF-4FE8-8F2F-C771729CFC24}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exam", "Exam", "{A3C88115-2622-401B-BE12-FDE02DECF875}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam.API", "Exam.API\Exam.API.csproj", "{183B38E7-DEAB-401B-A080-ABA5F64C352B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam.API", "Exam.API\Exam.API.csproj", "{183B38E7-DEAB-401B-A080-ABA5F64C352B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam.Application", "Exam.Application\Exam.Application.csproj", "{24EA9462-8615-404B-A082-9FD8ED4027E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam.Application", "Exam.Application\Exam.Application.csproj", "{24EA9462-8615-404B-A082-9FD8ED4027E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam.Domain", "Exam.Domain\Exam.Domain.csproj", "{2A2A0FF9-95AB-40AA-8F8B-63FFF4185639}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam.Domain", "Exam.Domain\Exam.Domain.csproj", "{2A2A0FF9-95AB-40AA-8F8B-63FFF4185639}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam.Infrastructure", "Exam.Infrastructure\Exam.Infrastructure.csproj", "{5B4EEF03-EEA7-40DB-AB5B-2520134386EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam.Infrastructure", "Exam.Infrastructure\Exam.Infrastructure.csproj", "{5B4EEF03-EEA7-40DB-AB5B-2520134386EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{72B2C95C-075C-49B5-872B-C6958DAE6FB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam.Dtos", "Exam.Dtos\Exam.Dtos.csproj", "{06496040-C2F2-4A47-90D0-8050A968F31F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,10 @@ Global
 		{5B4EEF03-EEA7-40DB-AB5B-2520134386EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B4EEF03-EEA7-40DB-AB5B-2520134386EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B4EEF03-EEA7-40DB-AB5B-2520134386EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06496040-C2F2-4A47-90D0-8050A968F31F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06496040-C2F2-4A47-90D0-8050A968F31F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06496040-C2F2-4A47-90D0-8050A968F31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06496040-C2F2-4A47-90D0-8050A968F31F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +70,8 @@ Global
 		{24EA9462-8615-404B-A082-9FD8ED4027E2} = {A3C88115-2622-401B-BE12-FDE02DECF875}
 		{2A2A0FF9-95AB-40AA-8F8B-63FFF4185639} = {A3C88115-2622-401B-BE12-FDE02DECF875}
 		{5B4EEF03-EEA7-40DB-AB5B-2520134386EB} = {A3C88115-2622-401B-BE12-FDE02DECF875}
+		{72B2C95C-075C-49B5-872B-C6958DAE6FB3} = {EF9D0617-5395-42F1-84B8-407162111FE7}
+		{06496040-C2F2-4A47-90D0-8050A968F31F} = {72B2C95C-075C-49B5-872B-C6958DAE6FB3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FF55A28B-3E3C-4F58-B19F-B377D2F09D91}

@@ -5,13 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="AggregateModels\CategoryAggregate\" />
-    <Folder Include="AggregateModels\ExamAggragate\" />
-    <Folder Include="AggregateModels\ExamResultAggregate\" />
-    <Folder Include="AggregateModels\QuestionAggregate\" />
-    <Folder Include="AggregateModels\UserAggregate\" />
-    <Folder Include="Events\" />
-    <Folder Include="Exceptions\" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.12.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Exam.Dtos\Exam.Dtos.csproj" />
   </ItemGroup>
 
 </Project>
